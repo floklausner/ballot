@@ -1,2 +1,6 @@
-topic;howMuch;yes;no
-Did you vote;200;120 for yes;80 for no
+User;1234
+User Online;321
+Topic;Did you vote?
+Votes;200
+Votes for yes;120
+Votes for no;80

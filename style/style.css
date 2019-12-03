@@ -5,6 +5,10 @@
   user-select: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #navbar {
   width: 100vw;
   height: 7vh;
@@ -148,13 +152,21 @@ h3 {
 
 #analysticsText {
   float: left;
-  padding-top: 27vh;
-  width: 30vw;
+  padding-top: 7.5vh;
+  width: 38vw;
 }
 
 #analysticsPicture {
   padding-top: 13vh;
   float: right;
+}
+
+#readFromCSVAnalystics td {
+  border: 1px solid lightgrey;
+  color: #c0457c;
+  text-align: center;
+  padding: 1vw;
+  width: 40vw;
 }
 
 #social {
@@ -164,9 +176,18 @@ h3 {
   height: 100vh;
 }
 
+#readFromCSVSocial td {
+  border: 1px solid lightgrey;
+  color: #c0457c;
+  text-align: center;
+  padding: 1vw;
+  width: 40vw;
+}
+
+
 #socialText {
   float: left;
-  padding-top: 27vh;
+  padding-top: 11vh;
   width: 30vw;
 }
 
